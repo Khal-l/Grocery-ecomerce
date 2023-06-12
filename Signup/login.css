@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #71b7e6, #7091ce);
+}
+.container {
+    max-width: 700px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(5, 16, 54, 0.15);
+}
+.container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.content form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+form .user-details .input-box {
+    margin-bottom: 15px;
+    width: 100%;
+}
+.user-details .input-box input {
+    height: 45px;
+    width: 99%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+form input[type="tel"] {
+    margin-top:1px;
+}
+form .button {
+    height: 45px;
+    margin: 35px 0;
+}
+form .button input {
+    height: 100%;
+    width: 99%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #6bb6e9, #5d73d6);
+}
+form .button input:hover {
+    background: linear-gradient(-135deg, #71b7e6, #6976ec);
+}
+.input-box i{
+    position: relative;
+    margin-left: -30px;
+    cursor: pointer;
+    z-index: 1;
+    display: inline-block;
+}
+ form .button a {
+    height: 100%;
+    width: 99%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #6bb6e9, #5d73d6);
+    text-decoration: none;
+}
+form .button a:hover {
+    background: linear-gradient(-135deg, #71b7e6, #6976ec);
+    text-decoration: none;
+    color:#fff;
+}

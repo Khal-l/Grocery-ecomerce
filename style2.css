@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300&family=Rubik&display=swap');
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+.navbar-brand:hover{
+color:black;
+
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+ .nav-link:hover{
+     color: black;
+ }
+
+ .search{
+     height:40px;
+     width: 80%;
+     border-radius: 60px;
+     outline: none;
+     margin-right:-35px ;
+     border: 2px solid rgba(0, 153, 255, 0.884);
+     font-family: 'Rubik', sans-serif;
+     
+
+ }
+ .btn0{
+     height: 40px;
+     width: 40%;
+     outline: none;
+     border: none;
+     background: rgba(0, 153, 255, 0.884);
+     color: white;
+     border-radius: 60px;
+     font-weight: 700;
+ }
+ 
+ .btn1{
+     height: 45px;
+     width: 35%;
+     border: none;
+     outline: none;
+     background-color: rgba(0, 153, 255, 0.884);
+     color: white;
+     font-weight: 700;
+     border-radius: 60px;
+
+ }
+ .btn1:hover{
+     background-color: #546602;
+     color:#FFF ;
+     transition: 0.5s;
+ }
+ .img-category{
+    border: 0px;
+ }
+ h1{
+     font-weight: 700;
+ }
+ .card:hover{
+   box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75); 
+   -webkit-box-shadow:-2px -1px 25px -4px rgba(0,0,0,0.75);
+   -moz-box-shadow:-2px -1px 25px -4px rgba(0,0,0,0.75);
+   transition: 0.5s; 
+ }
+ .sub{
+    height:40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right:-35px ;
+    border: 2px solid rgba(0, 153, 255, 0.884);
+    font-family: 'Rubik', sans-serif;
+    
+}
+.subscribe{
+    background: url(./upload/subscribe.jpg)!important;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+}
+.form-sub{
+    margin-top: 70px;
+}
+.subscribe h1{
+    font-family: 'Lobster', cursive;  
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.footer input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+    background: black;
+
+}
+.footer::placeholder{
+    color: #FFF;
+
+} 
+.footer p{
+    margin: 0;
+}
+.bi{
+    font-size: 2.5 rem;
+    cursor: pointer;
+    padding-right: 5px;
+    color: white;
+
+}
+.main1{
+    background: url(./upload/main1.png)!important;
+    background-size: cover;
+    height:600px;
+    background-position: 50% 50%;
+    width: 100%;
+
+
+}
+.main1 h1{
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: 'roboto'; 
+}
+.pr_img{
+    height:200px !important;
+    width:200px !important ;
+}
